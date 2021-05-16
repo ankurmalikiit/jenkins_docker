@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Checking http status"
-response=$(curl --write-out %{http_code} --silent --output /dev/null http://54.252.170.186:8093/)
+response=$(curl --write-out %{http_code} --silent --output /dev/null http://13.239.152.138:8093/)
 
 if [ "$response" == "200" ]
 
