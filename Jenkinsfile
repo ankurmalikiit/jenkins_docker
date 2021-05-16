@@ -13,7 +13,7 @@ pipeline {
         }
 		stage('Health check') {
             steps {
-                sh './healthcheck.sh'
+                sh ' sudo sh healthcheck.sh'
             }
         }
     }
